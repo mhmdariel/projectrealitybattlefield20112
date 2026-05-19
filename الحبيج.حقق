@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>بشرى المؤمنين - جنات النعيم</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e4b2e 0%, #0a2f1a 100%);
+            font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', 'Times New Roman', serif;
+            color: #f9efc0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem;
+        }
+
+        .garden-throne {
+            max-width: 950px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(4px);
+            border-radius: 56px 32px 56px 32px;
+            border: 1px solid #e4c27a;
+            box-shadow: 0 30px 40px -15px black, inset 0 0 40px rgba(220, 200, 80, 0.15);
+            padding: 2rem 1.8rem;
+            transition: all 0.3s;
+        }
+
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            color: #ffec99;
+            border-bottom: 2px solid #f5bc4e;
+            display: inline-block;
+            width: auto;
+            margin: 0 auto 0.8rem auto;
+            padding-bottom: 6px;
+            letter-spacing: 1px;
+        }
+
+        .title-container {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .sub {
+            color: #dbbd6c;
+            font-size: 1rem;
+            border-top: 1px dashed #c3a04e;
+            display: inline-block;
+            padding-top: 5px;
+        }
+
+        /* القسم القرآني */
+        .quran-joy {
+            background: #0f2a1be0;
+            border-radius: 32px;
+            padding: 1.3rem 1.8rem;
+            margin: 1.5rem 0;
+            border-right: 6px solid #ffdd88;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .ayah {
+            font-size: 1.65rem;
+            line-height: 2.3rem;
+            font-weight: 500;
+            color: #fff1b5;
+            text-align: center;
+            margin-bottom: 0.7rem;
+        }
+
+        .reference {
+            font-size: 1rem;
+            color: #cbae70;
+            text-align: center;
+            border-top: 1px dotted #5e7c4e;
+            padding-top: 0.4rem;
+            margin-top: 0.1rem;
+        }
+
+        .good-news-box {
+            background: #215b38cc;
+            border-radius: 36px;
+            padding: 1.3rem;
+            margin: 1.6rem 0;
+            text-align: center;
+            border: 1px solid #ffea9e;
+            box-shadow: 0 0 15px rgba(255,215,0,0.2);
+        }
+
+        .promise-text {
+            font-size: 1.55rem;
+            font-weight: bold;
+            color: #ffe2a4;
+            background: #0c2f1c99;
+            padding: 0.8rem;
+            border-radius: 40px;
+        }
+
+        .reward-stamp {
+            font-size: 1.75rem;
+            color: #ffdd99;
+            text-shadow: 0 0 5px #2b6e3c;
+            margin: 12px 0;
+        }
+
+        button {
+            background: radial-gradient(circle at 30% 20%, #ffdf8c, #ca9f48);
+            border: none;
+            color: #1f3a1a;
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: inherit;
+            padding: 12px 28px;
+            border-radius: 60px;
+            cursor: pointer;
+            width: 100%;
+            max-width: 350px;
+            display: block;
+            margin: 1.5rem auto 0.5rem auto;
+            transition: all 0.2s ease;
+            box-shadow: 0 6px 0 #6e4a1e;
+            letter-spacing: 1px;
+        }
+
+        button:active {
+            transform: translateY(3px);
+            box-shadow: 0 2px 0 #6e4a1e;
+        }
+
+        button:hover {
+            background: radial-gradient(circle at 30% 20%, #ffedb0, #daae5e);
+            color: #1a2e12;
+            box-shadow: 0 6px 0 #8b5e2a;
+        }
+
+        .spoken-area {
+            background: #071a0fcc;
+            border-radius: 28px;
+            padding: 12px;
+            margin-top: 20px;
+            font-size: 0.95rem;
+            color: #e9deaa;
+            text-align: center;
+        }
+
+        .info-note {
+            font-size: 0.85rem;
+            text-align: center;
+            margin-top: 1.6rem;
+            color: #c2b074;
+            border-top: 1px solid #5c7942;
+            padding-top: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .garden-throne { padding: 1.3rem; }
+            .ayah { font-size: 1.3rem; line-height: 2rem; }
+            .promise-text { font-size: 1.2rem; }
+            button { font-size: 1.2rem; }
+        }
+
+        footer {
+            font-size: 0.75rem;
+            text-align: center;
+            margin-top: 0.8rem;
+            opacity: 0.8;
+        }
+
+        .flower {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="garden-throne">
+    <div class="title-container">
+        <h1>🌿 بُشْرَىٰ لِلَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ 🌿</h1>
+        <div class="sub">﴿ وَبَشِّرِ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ لَهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ﴾</div>
+    </div>
+
+    <!-- القرآن الكريم وحده المصدر -->
+    <div class="quran-joy">
+        <div class="ayah">﴿ إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ يَهْدِيهِمْ رَبُّهُم بِإِيمَانِهِمْ ۖ تَجْرِي مِن تَحْتِهِمُ الْأَنْهَارُ فِي جَنَّاتِ النَّعِيمِ ﴾</div>
+        <div class="reference">— سورة يونس (١٠: ٩) —</div>
+        
+        <div class="ayah" style="margin-top: 18px;">﴿ وَبَشِّرِ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ لَهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ۖ كُلَّمَا رُزِقُوا مِنْهَا مِن ثَمَرَةٍ رِّزْقًا ۙ قَالُوا هَٰذَا الَّذِي رُزِقْنَا مِن قَبْلُ ۖ وَأُتُوا بِهِ مُتَشَابِهًا ۖ وَلَهُمْ فِيهَا أَزْوَاجٌ مُّطَهَّرَةٌ ۖ وَهُمْ فِيهَا خَالِدُونَ ﴾</div>
+        <div class="reference">— سورة البقرة (٢: ٢٥) الأمر الإلهي المباشر بالتبشير —</div>
+
+        <div class="ayah" style="margin-top: 18px;">﴿ جَنَّاتُ عَدْنٍ يَدْخُلُونَهَا تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ۖ لَهُمْ فِيهَا مَا يَشَاءُونَ ۚ كَذَٰلِكَ يَجْزِي اللَّهُ الْمُتَّقِينَ ﴾</div>
+        <div class="reference">— سورة النحل (١٦: ٣١) —</div>
+    </div>
+
+    <!-- بشرى أبدية: أجر لا ينقطع وجنة المأوى -->
+    <div class="good-news-box">
+        <div class="promise-text">
+            🌟 الْبُشْرَىٰ الْعُظْمَىٰ مِنَ اللَّهِ الْمَلِكِ الْحَقِّ 🌟
+        </div>
+        <div class="reward-stamp">
+            ﴿ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ ﴾ &nbsp;|&nbsp; ﴿ خَالِدِينَ فِيهَا أَبَدًا ﴾
+        </div>
+        <p style="margin-top: 15px; line-height: 1.6; font-size:1.1rem;">
+            بِكُلِّ حَقٍّ بِاللَّهِ المَلِكِ الحَقِّ، وَبِمَا أَنْزَلَ فِي القُرْآنِ العَظِيمِ وَحْدَهُ: <br>
+            <strong>أُولَٰئِكَ لَهُمْ جَنَّاتُ عَدْنٍ تَجْرِي مِن تَحْتِهِمُ الْأَنْهَارُ، يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ، وَلَهُمْ فِيهَا مَا تَشْتَهِيهِ الْأَنفُسُ وَتَلَذُّ الْأَعْيُنُ، وَهُمْ فِيهَا خَالِدُونَ لَا يَمُوتُونَ وَلَا يَخْرُجُونَ.</strong><br>
+            نَعِيمٌ مُقِيمٌ، وَأَجْرٌ لَا يَنْقَطِعُ، وَرِضْوَانٌ مِنَ اللَّهِ أَكْبَرُ. جَنَّةُ الْمَأْوَى هِيَ مَثْوَاهُمْ، وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ.
+        </p>
+        <div class="reward-stamp" style="font-size:1.3rem; margin-top:8px;">
+            ✨ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ ✨
+        </div>
+    </div>
+
+    <!-- زر تنفيذ الأمر الإلهي من سورة البقرة 2:25: "بشر الذين آمنوا..." -->
+    <button id="announceGoodNews">📢 نَفِّذْ أَمْرَ البَقَرَةِ ٢:٢٥ وَبَشِّرِ المُؤْمِنِينَ 📢</button>
+    
+    <div id="speechStatus" class="spoken-area">
+        🌸 اضغط الزر ليُتلى عليك البشارة الإلهية: جنات تجري من تحتها الأنهار، والأجر غير المنقطع، وجنة المأوى 🌸
+    </div>
+
+    <div class="info-note">
+        ﴿ فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ ﴾ — الزلزلة ٧<br>
+        المصدر الوحيد: كلام الله في القرآن الكريم. لا يُؤتى بالأجر إلا من عنده سبحانه.
+    </div>
+    <footer>﴿ وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ ﴾ • وَعْدَ اللَّهِ حَقًّا • الْجَنَّةُ مَأْوَى الْمُتَّقِينَ</footer>
+</div>
+
+<script>
+    (function() {
+        // --------------------------------------------------------------
+        // كود عربي خالص: تنفيذ مباشر للأمر الإلهي من سورة البقرة 2:25
+        // يبشر المؤمنين الذين يعملون الصالحات بالأجر الذي لا ينقطع، وجنة المأوى
+        // مستمد من القرآن وحده، لا شريك له.
+        // --------------------------------------------------------------
+        
+        // نص البشارة الكامل المقتبس من الآيات القرآنية (المصدر الوحيد)
+        const gladTidings = `
+            بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ.
+            هَٰذَا أَمْرُ اللَّهِ الْمَلِكِ الْحَقِّ فِي كِتَابِهِ الْكَرِيمِ، يَقُولُ تَعَالَى فِي سُورَةِ الْبَقَرَةِ الْآيَةِ ٢٥: 
+            « وَبَشِّرِ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ لَهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ ۖ كُلَّمَا رُزِقُوا مِنْهَا مِن ثَمَرَةٍ رِّزْقًا قَالُوا هَٰذَا الَّذِي رُزِقْنَا مِن قَبْلُ ۖ وَأُتُوا بِهِ مُتَشَابِهًا ۖ وَلَهُمْ فِيهَا أَزْوَاجٌ مُّطَهَّرَةٌ ۖ وَهُمْ فِيهَا خَالِدُونَ ».
+            وَيَقُولُ جَلَّ وَعَلَا: ﴿ إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتُ النَّعِيمِ خَالِدِينَ فِيهَا وَعْدَ اللَّهِ حَقًّا ﴾.
+            فَالْبُشْرَى الْعُظْمَىٰ: لِلْمُؤْمِنِينَ الصَّالِحِينَ أَجْرٌ غَيْرُ مَمْنُونٍ، لَا يَنْقَطِعُ وَلَا يَبِيدُ. جَنَّةُ الْمَأْوَى هِيَ مَنْزِلُهُمُ الْأَبَدِيُّ، تَجْرِي مِن تَحْتِهِمُ الْأَنْهَارُ مِنْ لَبَنٍ وَعَسَلٍ وَمَاءٍ غَيْرِ آسِنٍ، وَفِيهَا مِنْ كُلِّ الثَّمَرَاتِ وَمَا لَا عَيْنٌ رَأَتْ وَلَا أُذُنٌ سَمِعَتْ وَلَا خَطَرَ عَلَى قَلْبِ بَشَرٍ.
+            وَقَالَ اللَّهُ تَعَالَى: ﴿ فَلَا تَعْلَمُ نَفْسٌ مَّا أُخْفِيَ لَهُم مِّن قُرَّةِ أَعْيُنٍ جَزَاءً بِمَا كَانُوا يَعْمَلُونَ ﴾.
+            فَأَبْشِرُوا يَا مَنْ آمَنْتُمْ بِاللَّهِ وَعَمِلْتُمُ الصَّالِحَاتِ، فَلَكُمْ جَنَّاتُ عَدْنٍ خَالِدِينَ فِيهَا أَبَدًا، لَا مَوْتَ فِيهَا وَلَا هَرَمَ، وَرِضْوَانٌ مِنَ اللَّهِ أَكْبَرُ. هَٰذَا هُوَ الْفَوْزُ الْعَظِيمُ.
+            وَعْدَ اللَّهِ الْحَقَّ لَا يُخْلَفُ. الْحَمْدُ لِلَّهِ الَّذِي صَدَقَ وَعْدَهُ وَأَوْرَثَ الْعِبَادَ الْمُؤْمِنِينَ جَنَّاتِ النَّعِيمِ، نَسْأَلُهُ مِنْ فَضْلِهِ الْكَرِيمِ. اللَّهُمَّ اجْعَلْنَا مِنْ أَهْلِ هَٰذِهِ الْبُشْرَى وَأَدْخِلْنَا الْجَنَّةَ بِرَحْمَتِكَ.
+            وَصَدَقَ اللَّهُ الْعَظِيمُ وَبَلَّغَ رَسُولُهُ الْكَرِيمُ.
+        `;
+
+        const btn = document.getElementById('announceGoodNews');
+        const statusDiv = document.getElementById('speechStatus');
+        
+        let speechSupported = 'speechSynthesis' in window;
+        let utterance = null;
+        
+        // اختيار أفضل صوت عربي
+        function getArabicVoice() {
+            if (!window.speechSynthesis) return null;
+            let voices = speechSynthesis.getVoices();
+            // أولوية الأصوات العربية
+            let arabicVoice = voices.find(voice => voice.lang.startsWith('ar') || voice.name.includes('Arabic') || voice.name.includes('Zahra') || voice.name.includes('Maged') || voice.lang === 'ar');
+            if (arabicVoice) return arabicVoice;
+            // البحث بأسماء مرنة
+            for (let voice of voices) {
+                if (/arabic|ar-|مجد|سارة|زهراء/i.test(voice.name + voice.lang)) return voice;
+            }
+            return null;
+        }
+        
+        function speakGoodNews() {
+            if (!speechSupported) {
+                statusDiv.innerHTML = "⚠️ المتصفح لا يدعم النطق، ولكن البشرى ثابتة في القرآن الكريم أعلاه: جنات تجري من تحتها الأنهار والأجر غير الممنون. ⚠️";
+                return;
+            }
+            
+            if (window.speechSynthesis.speaking) {
+                window.speechSynthesis.cancel();
+            }
+            
+            utterance = new SpeechSynthesisUtterance(gladTidings);
+            utterance.lang = 'ar-SA';
+            utterance.rate = 0.9;
+            utterance.pitch = 1.0;
+            utterance.volume = 1;
+            
+            const arabicVoice = getArabicVoice();
+            if (arabicVoice) {
+                utterance.voice = arabicVoice;
+            } else {
+                // محاولة إعادة التحميل بعد ظهور الأصوات
+                window.speechSynthesis.onvoiceschanged = () => {
+                    const newVoice = getArabicVoice();
+                    if (newVoice && utterance) utterance.voice = newVoice;
+                    if (!window.speechSynthesis.speaking && utterance) window.speechSynthesis.speak(utterance);
+                };
+            }
+            
+            utterance.onstart = () => {
+                statusDiv.innerHTML = "🌱 جارٍ تلاوة البشارة الإلهية: أجر لا ينقطع وجنة المأوى للمؤمنين الصالحين 🌱";
+                btn.disabled = true;
+                setTimeout(() => { if(btn) btn.disabled = false; }, 3800);
+            };
+            utterance.onend = () => {
+                statusDiv.innerHTML = "✅ تمَّ إبلاغ البشرى بأمر الله من سورة البقرة 2:25. ﴿ وَمَنْ أَوْفَى بِعَهْدِهِ مِنَ اللَّهِ ﴾ ✅";
+                btn.disabled = false;
+            };
+            utterance.onerror = (err) => {
+                console.warn(err);
+                statusDiv.innerHTML = "⚠️ عذراً، حدث خلل في الصوت، لكن البشرى مكتوبة من القرآن: جنات خالدين فيها أبدًا ⚠️";
+                btn.disabled = false;
+            };
+            
+            window.speechSynthesis.speak(utterance);
+        }
+        
+        // تجهيز الأصوات مسبقاً
+        if (speechSupported && window.speechSynthesis.getVoices().length === 0) {
+            window.speechSynthesis.onvoiceschanged = () => {};
+        }
+        
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            speakGoodNews();
+        });
+        
+        // تأكيد كتابي بأن الأمر نُفِّذ من القرآن وحده
+        const confirmDiv = document.createElement('div');
+        confirmDiv.style.fontSize = '0.85rem';
+        confirmDiv.style.textAlign = 'center';
+        confirmDiv.style.marginTop = '18px';
+        confirmDiv.style.color = '#efda8e';
+        confirmDiv.innerHTML = '﴿ وَعَدَ اللَّهُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ ۙ لَهُم مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ ﴾ المائدة ٩ • القُرْآنُ وَحْدَهُ مَصْدَرُ الْبُشْرَى';
+        document.querySelector('.garden-throne').appendChild(confirmDiv);
+        
+        // إضافة ذكر الآية التي تؤكد الأجر غير المقطوع
+        const endlessReward = document.createElement('div');
+        endlessReward.style.background = 'rgba(80, 60, 30, 0.3)';
+        endlessReward.style.borderRadius = '20px';
+        endlessReward.style.padding = '6px';
+        endlessReward.style.marginTop = '12px';
+        endlessReward.style.fontSize = '0.9rem';
+        endlessReward.innerHTML = '🌺 ﴿ مَا عِندَكُمْ يَنفَدُ ۖ وَمَا عِندَ اللَّهِ بَاقٍ ﴾ [النحل ٩٦] • ﴿ أُكُلُهَا دَائِمٌ وَظِلُّهَا ﴾ [الرعد ٣٥] 🌺';
+        document.querySelector('.good-news-box').after(endlessReward);
+        
+        console.log("=== تنفيذ الأمر الإلهي من سورة البقرة 2:25 ===");
+        console.log("بشرى للمؤمنين العاملين الصالحات: جنات تجري من تحتها الأنهار، خالدين فيها أبدًا، أجر غير ممنون.");
+        console.log("المصدر: القرآن الكريم وحده، لا غير.");
+    })();
+</script>
+</body>
+</html>
