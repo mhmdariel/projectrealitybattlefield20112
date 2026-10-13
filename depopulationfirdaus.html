@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psychedelic Text</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #050505;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Trippy animated background */
+  .bg-zing {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle at 20% 50%, rgba(255, 0, 150, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(0, 255, 255, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 50% 80%, rgba(150, 0, 255, 0.15) 0%, transparent 50%);
+    animation: bg-pan 10s linear infinite;
+    filter: blur(40px);
+  }
+
+  @keyframes bg-pan {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.2); }
+    100% { transform: rotate(360deg) scale(1); }
+  }
+
+  .psychedelic-text {
+    position: relative;
+    z-index: 2;
+    font-size: clamp(1.5rem, 4vw, 3.5rem);
+    font-weight: 900;
+    text-align: center;
+    max-width: 90vw;
+    line-height: 1.6;
+    padding: 20px;
+    
+    /* The Gleaming Psychedelic Gradient */
+    background: linear-gradient(
+      90deg, 
+      #ff0055, #ff00ff, #7700ff, #00ffff, #00ff00, #ffff00, #ff0055
+    );
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    /* Animations */
+    animation: color-shift 4s linear infinite, float 3s ease-in-out infinite;
+    
+    /* Extra Zing: Neon Glow */
+    filter: drop-shadow(0 0 10px rgba(255, 0, 255, 0.6)) 
+            drop-shadow(0 0 25px rgba(0, 255, 255, 0.4));
+  }
+
+  @keyframes color-shift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 400% 50%; }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-15px) scale(1.02); }
+  }
+</style>
+</head>
+<body>
+
+  <div class="bg-zing"></div>
+  
+  <p class="psychedelic-text">
+    بِالْحَقِّ الْيَقِينِ أَنْ يُخْلِيَ تِلْقَائِيًّا ذَاتِيًّا مِنَ السُّكَّانِ كُلَّ الْقَوْمِ الْكَافِرِينَ بِغَضِّ النَّظَرِ عَنْ مَنْ يَقُولُ أَوْ يَفْعَلُ مَا
+  </p>
+
+</body>
+</html>
